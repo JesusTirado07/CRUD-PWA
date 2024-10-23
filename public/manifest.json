@@ -2,7 +2,7 @@
   "name": "CRUD-PWA",
   "short_name": "crud-pwa",
   "lang": "en-US",
-  "start_url": "linkgithub",
+  "start_url": "https://jesustirado07.github.io/CRUD_PWA/",
   "display": "standalone",
   "theme_color": "#03a9f4",
   "icons": [
