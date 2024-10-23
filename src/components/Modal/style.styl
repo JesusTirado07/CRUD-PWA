@@ -1,0 +1,76 @@
+.modal
+  position fixed
+  top 50%
+  left 50%
+  transform translate(-50%, -50%)
+  max-width 500px
+  width 80vw
+  padding 20px
+  background-color white
+  box-shadow 0 5px 15px rgba(0, 0, 0, 0.2)
+  border-radius 10px
+  z-index 1000
+  form
+    width 100%
+    display flex
+    flex-direction column
+    gap 15px
+
+  textarea, input
+    width 100%
+    padding 10px
+    border 1px solid #ddd
+    border-radius 5px
+    box-sizing border-box
+    font-size 16px
+    resize none
+
+  input
+    height 40px
+
+  textarea
+    height 120px
+
+  .buttons
+    display flex
+    gap 10px
+    justify-content space-between
+
+.primary
+  background-color #7fbf00
+  color white
+  border none
+  padding 12px 24px
+  border-radius 5px
+  font-size 16px
+  font-weight bold
+  cursor pointer
+  transition all 0.3s ease-in-out
+  &:hover
+    background-color #6aa700
+
+.normal
+  background-color #ccc
+  color white
+  border none
+  padding 12px 24px
+  border-radius 5px
+  font-size 16px
+  font-weight bold
+  cursor pointer
+  transition all 0.3s ease-in-out
+  &:hover
+    background-color #bbb
+
+.delete
+  background-color #e74c3c
+  color white
+  border none
+  padding 12px 24px
+  border-radius 5px
+  font-size 16px
+  font-weight bold
+  cursor pointer
+  transition all 0.3s ease-in-out
+  &:hover
+    background-color #c0392b
